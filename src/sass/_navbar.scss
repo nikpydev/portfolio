@@ -1,0 +1,42 @@
+.navbar {
+  grid-column: full-start / full-end;
+  grid-row: navbar-start / navbar-end;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.logo-box {
+  grid-column: 1 / span 1;
+  padding: 2rem;
+}
+
+.nav-list {
+  grid-column: 2 / span 2;
+  justify-self: flex-end;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  column-gap: 5rem;
+  margin-right: 10rem;
+
+  &__item {
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all 0.2s;
+
+    &--link {
+      text-decoration: none;
+      color: #aaaaaa;
+      transition: all 0.2s ease-in;
+    }
+  }
+
+  &__item:hover {
+    transform: scale(1.2) rotate(-10deg);
+  }
+}
