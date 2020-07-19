@@ -13,7 +13,8 @@ function ProjectCard({
         <div className="project-card__header">{cardHeader}</div>
 
         <a
-          href="https://github.com/nikpydev/Tripster-Frontend"
+          href={`https://github.com/nikpydev/${projectName}`}
+          //   href="https://github.com/nikpydev/Tripster-Frontend"
           className="github-project-link"
         >
           <img
@@ -22,10 +23,14 @@ function ProjectCard({
             className="project-card__github-logo-box"
           />
         </a>
-        
+
         <h1 className="project-card__name">{projectName}</h1>
         <figure className="project-card__image-container">
-          <img src={require(`../img/${projectName}.png`)} alt="Tripster" className="project-card__image" />
+          <img
+            src={require(`../img/${projectName}.png`)}
+            alt="Tripster"
+            className="project-card__image"
+          />
         </figure>
         <h3 className="project-card__description">{projectDescription}</h3>
         <div className="project-card__footer">{cardFooter}</div>

@@ -24,7 +24,7 @@ const Content = () => {
               projectDescription={
                 "An E-Commerce based web application where the users can add products to cart and checkout. Payment gateway integrated using Braintree's API."
               }
-              imageUrl={"./Shoppersonic.png"}
+              imageUrl={"../img/Shoppersonic.png"}
               cardFooter={"mern web app"}
             />
           </div>
@@ -35,7 +35,7 @@ const Content = () => {
               projectDescription={
                 "A website frontend (only) built using HTML and CSS using the SASS with SCSS syntax."
               }
-              imageUrl={"./Nexter_cropped.png"}
+              imageUrl={"../img/Nexter.png"}
               cardFooter={"website frontend"}
             />
           </div>
@@ -46,7 +46,7 @@ const Content = () => {
               projectDescription={
                 "A website frontend (only) built using HTML and CSS using the SASS with SCSS syntax."
               }
-              imageUrl={"./Natours_cropped.png"}
+              imageUrl={"../img/Natours.png"}
               cardFooter={"website frontend"}
             />
           </div>
@@ -57,7 +57,7 @@ const Content = () => {
               projectDescription={
                 "A website frontend (only) built using HTML and CSS using the SASS with SCSS syntax."
               }
-              imageUrl={"./Trillo.png"}
+              imageUrl={"../img/Trillo.png"}
               cardFooter={"website frontend"}
             />
           </div>
@@ -68,7 +68,7 @@ const Content = () => {
               projectDescription={
                 "A MERN based Google Keep clone. The user can save notes in this app and delete them. Backend built using RESTful API concept."
               }
-              imageUrl={"./Keeper.jpg"}
+              imageUrl={"../img/Keeper.jpg"}
               cardFooter={"mern web app"}
             />
           </div>
