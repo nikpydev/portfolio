@@ -3,7 +3,6 @@ import React from "react";
 function ProjectCard({
   cardHeader,
   projectName,
-  imageUrl,
   projectDescription,
   cardFooter,
 }) {
@@ -14,7 +13,6 @@ function ProjectCard({
 
         <a
           href={`https://github.com/nikpydev/${projectName}`}
-          //   href="https://github.com/nikpydev/Tripster-Frontend"
           className="github-project-link"
         >
           <img

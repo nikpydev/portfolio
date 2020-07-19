@@ -13,7 +13,6 @@ const Content = () => {
               projectDescription={
                 "An E-Commerce based web application where the users can book flights and hotels. Payment gateway integrated using Braintree's API."
               }
-              imageUrl={"../img/Tripster.png"}
               cardFooter={"mern web app"}
             />
           </div>
@@ -24,7 +23,6 @@ const Content = () => {
               projectDescription={
                 "An E-Commerce based web application where the users can add products to cart and checkout. Payment gateway integrated using Braintree's API."
               }
-              imageUrl={"../img/Shoppersonic.png"}
               cardFooter={"mern web app"}
             />
           </div>
@@ -35,7 +33,6 @@ const Content = () => {
               projectDescription={
                 "A website frontend (only) built using HTML and CSS using the SASS with SCSS syntax."
               }
-              imageUrl={"../img/Nexter.png"}
               cardFooter={"website frontend"}
             />
           </div>
@@ -46,7 +43,6 @@ const Content = () => {
               projectDescription={
                 "A website frontend (only) built using HTML and CSS using the SASS with SCSS syntax."
               }
-              imageUrl={"../img/Natours.png"}
               cardFooter={"website frontend"}
             />
           </div>
@@ -57,7 +53,6 @@ const Content = () => {
               projectDescription={
                 "A website frontend (only) built using HTML and CSS using the SASS with SCSS syntax."
               }
-              imageUrl={"../img/Trillo.png"}
               cardFooter={"website frontend"}
             />
           </div>
@@ -68,7 +63,6 @@ const Content = () => {
               projectDescription={
                 "A MERN based Google Keep clone. The user can save notes in this app and delete them. Backend built using RESTful API concept."
               }
-              imageUrl={"../img/Keeper.jpg"}
               cardFooter={"mern web app"}
             />
           </div>
