@@ -36,6 +36,7 @@ p {
 .navbar {
   grid-column: full-start / full-end;
   grid-row: navbar-start / navbar-end;
+  background-color: #222831;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center; }
@@ -78,15 +79,17 @@ p {
     transform: scale(1.2) rotate(-10deg); }
 
 .header {
-  grid-column: center-start / center-end;
+  grid-column: full-start / full-end;
   grid-row: header-start / header-end;
+  padding: 5rem 5rem;
+  background-color: #222831;
+  color: #ffffff;
   display: grid;
   grid-template-columns: 1.2fr 1fr;
-  gap: 5rem;
-  margin-top: 5rem; }
+  gap: 5rem; }
   @media screen and (max-width: 1337px) {
     .header {
-      margin-top: 2rem; } }
+      padding: 2rem 5rem; } }
 
 .text-section {
   grid-column: 1 / 1;
@@ -118,7 +121,7 @@ p {
 .footer {
   grid-column: full-start / full-end;
   grid-row: footer-start / footer-end;
-  background-color: #131a22;
+  background-color: #222831;
   color: #ffffff;
   padding: 3rem;
   display: grid;
