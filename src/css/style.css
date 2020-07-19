@@ -20,14 +20,18 @@ body {
   grid-template-columns: [full-start navbar-start] minmax(6rem, 1fr) [center-start] repeat(3, [col-start] minmax(min-content, 45rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end navbar-end]; }
 
 .header-1 {
-  font-size: 8rem; }
+  font-size: 8rem;
+  letter-spacing: 5px; }
   @media screen and (max-width: 1337px) {
     .header-1 {
       font-size: 5rem; } }
 
 .header-3 {
   font-size: 3rem;
-  letter-spacing: 1.5px; }
+  letter-spacing: 2px; }
+  @media screen and (max-width: 1337px) {
+    .header-3 {
+      font-size: 3rem; } }
 
 p {
   font-size: 2rem;
@@ -113,6 +117,14 @@ p {
   height: 100%;
   object-fit: cover;
   display: block; }
+
+.about-text {
+  line-height: 3.5rem;
+  font-size: 2rem;
+  letter-spacing: 2px; }
+
+.nikhil-text {
+  text-transform: uppercase; }
 
 .content {
   grid-column: center-start / center-end;

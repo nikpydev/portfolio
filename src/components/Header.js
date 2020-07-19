@@ -6,17 +6,18 @@ const Header = () => {
       <div className="text-section">
         <div className="heading-primary">
           <h1 className="header-1">Hey Hey,</h1>
-          <h1 className="header-1" style={{ color: "#128C7E" }}>
-            I'm <span className="nikhil-text">Nikhil</span>
+          <h1 className="header-1">
+            I'm{" "}
+            <span className="nikhil-text" style={{ color: "#128C7E" }}>
+              Nikhil
+            </span>
           </h1>
         </div>
-        <p>
+        <p className="about-text">
           I'm a Full Stack (MERN) Web Developer who has a passion for web and
-        </p>
-        <p>
           mobile technologies, using programming to solve real-world problems,
+          and the outdoors.
         </p>
-        <p>and the outdoors.</p>
         <h3 className="header-3">
           Following are a few of my portfolio projects:-
         </h3>
