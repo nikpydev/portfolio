@@ -1,12 +1,18 @@
 import React from "react";
-import "../css/style.css"
+import "../css/style.css";
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <figure className="logo-box">
-        <img src="./javascript.png" alt="JavaScript Logo" className="logo-box__img" />
-      </figure>
+      <div className="logo-box">
+        <figure className="logo-box__fitter">
+          <img
+            src={require("../img/javascript.png")}
+            alt="JavaScript Logo"
+            className="logo-box__img"
+          />
+        </figure>
+      </div>
       <ul className="nav-list">
         <li className="nav-list__item">
           <a

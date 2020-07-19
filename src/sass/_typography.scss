@@ -1,5 +1,9 @@
 .header-1 {
     font-size: 8rem;
+
+    @media screen and (max-width: 1337px) {
+        font-size: 5rem;
+    }
 }
 
 .header-3 {

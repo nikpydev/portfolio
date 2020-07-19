@@ -2,6 +2,8 @@
 $font-primary: "Nunito", sans-serif;
 $font-display: "Josefin Sans", sans-serif;
 
+// RESPONSIVE BREAKPOINTS
+
 *,
 *::before,
 *::after {
@@ -25,7 +27,7 @@ body {
   display: grid;
   grid-template-rows:
     [navbar-start]
-    8rem
+    min-content
     [navbar-end header-start]
     min-content
     [header-end content-start]
@@ -38,7 +40,7 @@ body {
     [full-start navbar-start]
     minmax(6rem, 1fr)
     [center-start]
-    repeat(3, minmax(min-content, 40rem))
+    repeat(3, [col-start] minmax(min-content, 45rem) [col-end])
     [center-end]
     minmax(6rem, 1fr)
     [full-end navbar-end];

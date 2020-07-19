@@ -12,19 +12,23 @@ const Header = () => {
         </div>
         <p>
           I'm a Full Stack (MERN) Web Developer who has a passion for web and
-          mobile technologies, using programming to solve real-world problems,
-          and the outdoors.
         </p>
-        <h3 className="header-3">Following are a few of my portfolio projects:-</h3>
+        <p>
+          mobile technologies, using programming to solve real-world problems,
+        </p>
+        <p>and the outdoors.</p>
+        <h3 className="header-3">
+          Following are a few of my portfolio projects:-
+        </h3>
       </div>
 
-      <div className="avatar-section">
+      <figure className="avatar-section">
         <img
-          src="./webdev.jpg"
+          src={require("../img/webdev.jpg")}
           alt="Web Developer Logo"
           className="avatar-img"
         />
-      </div>
+      </figure>
     </header>
   );
 };
