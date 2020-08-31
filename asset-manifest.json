@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.54f099c0.chunk.css",
-    "main.js": "/portfolio/static/js/main.c5d18a52.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c5d18a52.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.c3a959e4.chunk.css",
+    "main.js": "/portfolio/static/js/main.dd533e91.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.dd533e91.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a0b0e799.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.a0b0e799.js.map",
-    "static/js/2.67798cdd.chunk.js": "/portfolio/static/js/2.67798cdd.chunk.js",
-    "static/js/2.67798cdd.chunk.js.map": "/portfolio/static/js/2.67798cdd.chunk.js.map",
+    "static/js/2.7ee8efa9.chunk.js": "/portfolio/static/js/2.7ee8efa9.chunk.js",
+    "static/js/2.7ee8efa9.chunk.js.map": "/portfolio/static/js/2.7ee8efa9.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f32c3d91db9e094c80dcb7185696c5e5.js": "/portfolio/precache-manifest.f32c3d91db9e094c80dcb7185696c5e5.js",
+    "precache-manifest.d0a921960e2e923748d0e310d02c6ccb.js": "/portfolio/precache-manifest.d0a921960e2e923748d0e310d02c6ccb.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.54f099c0.chunk.css.map": "/portfolio/static/css/main.54f099c0.chunk.css.map",
-    "static/js/2.67798cdd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.67798cdd.chunk.js.LICENSE.txt",
+    "static/css/main.c3a959e4.chunk.css.map": "/portfolio/static/css/main.c3a959e4.chunk.css.map",
+    "static/js/2.7ee8efa9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7ee8efa9.chunk.js.LICENSE.txt",
     "static/media/Keeper.png": "/portfolio/static/media/Keeper.26935e13.png",
     "static/media/Natours.png": "/portfolio/static/media/Natours.d2327593.png",
     "static/media/Nexter.png": "/portfolio/static/media/Nexter.d01ce219.png",
@@ -20,12 +20,13 @@
     "static/media/Tripster.png": "/portfolio/static/media/Tripster.c3441f0b.png",
     "static/media/github-logo.png": "/portfolio/static/media/github-logo.0918d786.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.6e05132d.png",
+    "static/media/web-host-logo.png": "/portfolio/static/media/web-host-logo.a3ea03f8.png",
     "static/media/webdev.jpg": "/portfolio/static/media/webdev.a8136515.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a0b0e799.js",
-    "static/js/2.67798cdd.chunk.js",
-    "static/css/main.54f099c0.chunk.css",
-    "static/js/main.c5d18a52.chunk.js"
+    "static/js/2.7ee8efa9.chunk.js",
+    "static/css/main.c3a959e4.chunk.css",
+    "static/js/main.dd533e91.chunk.js"
   ]
 }
