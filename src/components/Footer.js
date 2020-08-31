@@ -23,7 +23,12 @@ const Footer = () => {
         </h3>
         <ul className="footer__nav">
           <li className="footer__nav-item footer__nav-item--1">
-            <a href="https://github.com/nikpydev" className="github-link">
+            <a
+              href="https://github.com/nikpydev"
+              className="github-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               GitHub
             </a>
           </li>
@@ -31,6 +36,8 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/in/nikhil-choudhary-bb56bb105/"
               className="linkedin-link"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               LinkedIn
             </a>

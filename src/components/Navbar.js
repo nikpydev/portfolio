@@ -15,16 +15,20 @@ const Navbar = () => {
       <ul className="nav-list">
         <li className="nav-list__item">
           <a
-            href="https://nikpydev.github.io/portfolio"
+            href="https://drive.google.com/file/d/1XyOfZcNTBTTTk1efmaZx1YZf0CgY13z2/view"
             className="nav-list__item--link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Work
+            Download Resume
           </a>
         </li>
         <li className="nav-list__item">
           <a
             href="https://github.com/nikpydev"
             className="nav-list__item--link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Github Profile
           </a>
