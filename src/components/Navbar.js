@@ -33,6 +33,16 @@ const Navbar = () => {
             Github Profile
           </a>
         </li>
+        <li className="nav-list__item">
+          <a
+            href="https://linkedin.com/in/nikpydev"
+            className="nav-list__item--link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn Profile
+          </a>
+        </li>
       </ul>
     </div>
   );
