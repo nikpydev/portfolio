@@ -74,9 +74,24 @@
     cursor: pointer;
   }
 
-  &__github-logo {
-    width: 100%;
-    height: 100%;
+  // &__github-logo {
+  //   width: 100%;
+  //   height: 100%;
+  // }
+
+  &__web-logo-box {
+    width: 3.5rem;
+    height: 3.5rem;
+    position: absolute;
+    padding: 0.5rem 0.5rem 0 0;
+    right: 4.5rem;
+    top: 0;
+    transition: all 0.2s;
+  }
+
+  &__web-logo-box:hover {
+    transform: scale(1.2);
+    cursor: pointer;
   }
 
   &__name {

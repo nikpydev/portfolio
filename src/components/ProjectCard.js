@@ -14,12 +14,29 @@ function ProjectCard({
         <a
           href={`https://github.com/nikpydev/${projectName}`}
           className="github-project-link"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             src={require("../img/github-logo.png")}
             alt="github logo"
             className="project-card__github-logo-box"
           />
+          
+        </a>
+        
+        <a
+          href={`https://nikpydev.github.io/${projectName}`}
+          className="github-pages-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={require("../img/web-host-logo.png")}
+            alt="web logo"
+            className="project-card__web-logo-box"
+          />
+          
         </a>
 
         <h1 className="project-card__name">{projectName}</h1>
