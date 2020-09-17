@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.73c6df02.chunk.css",
-    "main.js": "/portfolio/static/js/main.3cc968b5.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3cc968b5.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.0c0cf798.chunk.css",
+    "main.js": "/portfolio/static/js/main.81896ae9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.81896ae9.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a0b0e799.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.a0b0e799.js.map",
     "static/js/2.7ee8efa9.chunk.js": "/portfolio/static/js/2.7ee8efa9.chunk.js",
     "static/js/2.7ee8efa9.chunk.js.map": "/portfolio/static/js/2.7ee8efa9.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.de6b806d3c4566395f7f928ac0e86109.js": "/portfolio/precache-manifest.de6b806d3c4566395f7f928ac0e86109.js",
+    "precache-manifest.63b3e745b98ba6c150d267419b567498.js": "/portfolio/precache-manifest.63b3e745b98ba6c150d267419b567498.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.73c6df02.chunk.css.map": "/portfolio/static/css/main.73c6df02.chunk.css.map",
+    "static/css/main.0c0cf798.chunk.css.map": "/portfolio/static/css/main.0c0cf798.chunk.css.map",
     "static/js/2.7ee8efa9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7ee8efa9.chunk.js.LICENSE.txt",
     "static/media/Keeper.png": "/portfolio/static/media/Keeper.26935e13.png",
-    "static/media/Natours.png": "/portfolio/static/media/Natours.d2327593.png",
-    "static/media/Nexter.png": "/portfolio/static/media/Nexter.d01ce219.png",
+    "static/media/Natours.png": "/portfolio/static/media/Natours.09f2681d.png",
+    "static/media/Nexter.png": "/portfolio/static/media/Nexter.380694be.png",
     "static/media/Shoppersonic.png": "/portfolio/static/media/Shoppersonic.f6051f29.png",
-    "static/media/Trillo.png": "/portfolio/static/media/Trillo.87b3d8af.png",
+    "static/media/Trillo.png": "/portfolio/static/media/Trillo.fee3600c.png",
     "static/media/Tripster.png": "/portfolio/static/media/Tripster.c3441f0b.png",
     "static/media/github-logo.png": "/portfolio/static/media/github-logo.0918d786.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.6e05132d.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.a0b0e799.js",
     "static/js/2.7ee8efa9.chunk.js",
-    "static/css/main.73c6df02.chunk.css",
-    "static/js/main.3cc968b5.chunk.js"
+    "static/css/main.0c0cf798.chunk.css",
+    "static/js/main.81896ae9.chunk.js"
   ]
 }
