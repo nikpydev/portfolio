@@ -41,12 +41,21 @@
       margin-right: 5rem;
   }
 
+  @media screen and (max-width: 500px) {
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+  }
+
   &__item {
     text-transform: uppercase;
     list-style: none;
     font-size: 1.5rem;
     font-weight: bold;
     transition: all 0.2s;
+
+    @media screen and (max-width: 500px) {
+      margin: 0.5rem 0;
+    }
 
     &--link {
       text-decoration: none;
