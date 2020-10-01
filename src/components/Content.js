@@ -9,19 +9,19 @@ const Content = () => {
           <div className="work__project work__project--1">
             <ProjectCard
               cardHeader={"2020"}
-              projectName={"Tripster"}
+              projectName={"bugtrail-v3"}
               projectDescription={
-                "An E-Commerce based web application where the users can book flights and hotels. Payment gateway integrated using Braintree's API."
+                "A bug tracking and management system built using React for frontend and Firebase for the backend with 'Tester', 'Triage', and 'Developer' roles."
               }
-              cardFooter={"mern web app"}
+              cardFooter={"React and Firebase web app"}
             />
           </div>
           <div className="work__project work__project--2">
             <ProjectCard
               cardHeader={"2020"}
-              projectName={"Shoppersonic"}
+              projectName={"Tripster"}
               projectDescription={
-                "An E-Commerce based web application where the users can add products to cart and checkout. Payment gateway integrated using Braintree's API."
+                "An E-Commerce based web application where the users can book flights and hotels."
               }
               cardFooter={"mern web app"}
             />
@@ -29,11 +29,11 @@ const Content = () => {
           <div className="work__project work__project--3">
             <ProjectCard
               cardHeader={"2020"}
-              projectName={"Nexter"}
+              projectName={"Shoppersonic"}
               projectDescription={
-                "A website frontend (only) built using HTML and CSS using the SASS with SCSS syntax."
+                "An E-Commerce based web application where the users can add products to cart and checkout. Payment gateway integrated using Braintree's API."
               }
-              cardFooter={"website frontend"}
+              cardFooter={"mern web app"}
             />
           </div>
           <div className="work__project work__project--4">
@@ -59,11 +59,11 @@ const Content = () => {
           <div className="work__project work__project--6">
             <ProjectCard
               cardHeader={"2020"}
-              projectName={"Keeper"}
+              projectName={"Nexter"}
               projectDescription={
-                "A MERN based Google Keep clone. The user can save notes in this app and delete them. Backend built using RESTful API concept."
+                "A website frontend (only) built using HTML and CSS using the SASS with SCSS syntax."
               }
-              cardFooter={"mern web app"}
+              cardFooter={"website frontend"}
             />
           </div>
         </div>
