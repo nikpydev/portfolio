@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b2d5f98cd36f9131ed586139fe03bc5",
+    "revision": "10705b583751abc8324abea2e31fbd49",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "261e6602024d37aae947",
+    "revision": "a5cbc52abf53fceacaa8",
     "url": "/portfolio/static/css/main.0c0cf798.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.7ee8efa9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "261e6602024d37aae947",
-    "url": "/portfolio/static/js/main.4a974569.chunk.js"
+    "revision": "a5cbc52abf53fceacaa8",
+    "url": "/portfolio/static/js/main.fe090577.chunk.js"
   },
   {
     "revision": "e0165d889fff49045d7b",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f6451e8ed033fcb5e6963576de79194f",
     "url": "/portfolio/static/media/Tripster.f6451e8e.png"
+  },
+  {
+    "revision": "3de0f02b55dbb5ac0a77e047745e494c",
+    "url": "/portfolio/static/media/bugtrail-v3.3de0f02b.png"
   },
   {
     "revision": "0918d78648457def080137b179fc5608",
