@@ -14,9 +14,9 @@ const Header = () => {
           </h1>
         </div>
         <p className="about-text">
-          I'm a Full Stack (MEAN, MERN, & MEVN) Framework/Library Agnostic Web
-          Developer who has a passion for web and mobile technologies, and using
-          programming to solve real-world problems.
+          I'm a Full Stack (MERN) Web App Development Engineer who has a passion
+          for web and mobile technologies, and using programming to solve
+          real-world problems.
         </p>
         <h3 className="header-3">
           Following are a few of my portfolio projects:-
