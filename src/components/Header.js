@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Header = () => {
   return (
@@ -7,8 +7,8 @@ const Header = () => {
         <div className="heading-primary">
           <h1 className="header-1">Hey Hey,</h1>
           <h1 className="header-1">
-            I'm{" "}
-            <span className="nikhil-text" style={{ color: "#128C7E" }}>
+            I'm{' '}
+            <span className="nikhil-text" style={{ color: '#128C7E' }}>
               Nikhil
             </span>
           </h1>
@@ -25,7 +25,7 @@ const Header = () => {
 
       <figure className="avatar-section">
         <img
-          src={require("../img/webdev.jpg")}
+          src={require('../img/webdev.jpg')}
           alt="Web Developer Logo"
           className="avatar-img"
         />

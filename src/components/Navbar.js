@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Navbar = () => {
   return (
@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="logo-box">
         <figure className="logo-box__fitter">
           <img
-            src={require("../img/javascript.png")}
+            src={require('../img/javascript.png')}
             alt="JavaScript Logo"
             className="logo-box__img"
           />
@@ -15,7 +15,7 @@ const Navbar = () => {
       <ul className="nav-list">
         <li className="nav-list__item">
           <a
-            href="https://drive.google.com/file/d/1XyOfZcNTBTTTk1efmaZx1YZf0CgY13z2/view"
+            href="https://drive.google.com/file/d/1SHRDRqKvAjVaJKZPurBBhZPH7xxTpgYM/view?usp=sharing"
             className="nav-list__item--link"
             target="_blank"
             rel="noopener noreferrer"
