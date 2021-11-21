@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__col-1">
         <h3 className="footer-header">
-          Call me, Beep me{" "}
+          Call me, Beep me{' '}
           <span role="img" aria-label="pager">
             📟
           </span>
@@ -16,7 +16,7 @@ const Footer = () => {
 
       <div className="footer__col-2">
         <h3 className="footer-header">
-          Check me out{" "}
+          Check me out{' '}
           <span role="img" aria-label="eyes">
             👀
           </span>
@@ -45,10 +45,10 @@ const Footer = () => {
         </ul>
       </div>
       <p className="copyright">
-        © Made with{" "}
+        © Made with{' '}
         <span role="img" aria-label="heart">
           💝
-        </span>{" "}
+        </span>{' '}
         by Nikhil Choudhary
       </p>
     </footer>

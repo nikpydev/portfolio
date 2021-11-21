@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 function ProjectCard({
   cardHeader,
   projectName,
   projectDescription,
-  cardFooter,
+  cardFooter
 }) {
   return (
     <div>
@@ -18,13 +18,12 @@ function ProjectCard({
           rel="noopener noreferrer"
         >
           <img
-            src={require("../img/github-logo.png")}
+            src={require('../img/github-logo.png')}
             alt="github logo"
             className="project-card__github-logo-box"
           />
-          
         </a>
-        
+
         <a
           href={`https://nikpydev.github.io/${projectName}`}
           className="github-pages-link"
@@ -32,11 +31,10 @@ function ProjectCard({
           rel="noopener noreferrer"
         >
           <img
-            src={require("../img/web-host-logo.png")}
+            src={require('../img/web-host-logo.png')}
             alt="web logo"
             className="project-card__web-logo-box"
           />
-          
         </a>
 
         <h1 className="project-card__name">{projectName}</h1>

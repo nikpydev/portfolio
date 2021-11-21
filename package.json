@@ -3,13 +3,19 @@
   "version": "0.1.0",
   "homepage": "http://nikpydev.github.io/portfolio",
   "private": true,
+  "author": {
+    "name": "Nikhil Choudhary",
+    "email": "nc1336282@gmail.com",
+    "url": "https://nikpydev.github.io/portfolio"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "sass": "^1.43.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,7 +23,8 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier:format": "prettier --write ."
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,6 +43,6 @@
   },
   "devDependencies": {
     "gh-pages": "^3.1.0",
-    "node-sass": "^4.14.1"
+    "prettier": "^2.4.1"
   }
 }
